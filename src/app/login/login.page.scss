@@ -1,0 +1,21 @@
+.login-wrapper {
+    width: 100%;
+    margin-top: 80pt;
+    text-align: center;
+    .logo {
+        height: 90px;
+    }
+    .title {
+        color: #d51a19;
+    }
+}
+
+.login-btn {
+    background-color: #d51a19;
+    border-radius: 4px;
+}
+
+.login-btn ::ng-deep ::shadow .button-native {
+    background-color: #d51a19 !important;
+    border-radius: 4px;
+}
